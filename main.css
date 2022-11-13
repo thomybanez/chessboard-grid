@@ -1,0 +1,120 @@
+.grid-container {
+    display: grid;
+    grid:
+    'a8 b8 c8 d8 e8 f8 g8 h8'
+    'a7 b7 c7 d7 e7 f7 g7 h7'
+    'a6 b6 c6 d6 e6 f6 g6 h6'
+    'a5 b5 c5 d5 e5 f5 g5 h5'
+    'a4 b4 c4 d4 e4 f4 g4 h4'
+    'a3 b3 c3 d3 e3 f3 g3 h3'
+    'a2 b2 c2 d2 e2 f2 g2 h2'
+    'a1 b1 c1 d1 e1 f1 g1 h1'
+    ;
+    margin: 0% 20%;
+  }
+  
+  .brown{
+    background-color: rgb(202, 147, 115);
+  }
+
+  .white{
+    background-color: white;
+  }
+
+  p{
+    font-size: calc(5vmin);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+.square{
+  min-width: calc(8vmin);
+  min-height: calc(8vmin);
+  border: 2px rgb(192, 112, 112) solid;
+}
+
+h6{
+  text-align: center;
+}
+
+
+/*ROW 8*/
+.cella1 { grid-area:a1;}
+.cellb1 { grid-area:b1;}
+.cellc1 { grid-area:c1;}
+.celld1 { grid-area:d1;}
+.celle1 { grid-area:e1;}
+.cellf1 { grid-area:f1;}
+.cellg1 { grid-area:g1;}
+.cellh1 { grid-area:h1;}
+
+/*ROW 7*/
+.cella2 { grid-area:a2;}
+.cellb2 { grid-area:b2;}
+.cellc2 { grid-area:c2;}
+.celld2 { grid-area:d2;}
+.celle2 { grid-area:e2;}
+.cellf2 { grid-area:f2;}
+.cellg2 { grid-area:g2;}
+.cellh2 { grid-area:h2;}
+
+/*ROW 6*/
+.cella3 { grid-area:a3;}
+.cellb3 { grid-area:b3;}
+.cellc3 { grid-area:c3;}
+.celld3 { grid-area:d3;}
+.celle3 { grid-area:e3;}
+.cellf3 { grid-area:f3;}
+.cellg3 { grid-area:g3;}
+.cellh3 { grid-area:h3;}
+
+/*ROW 5*/
+.cella4 { grid-area:a4;}
+.cellb4 { grid-area:b4;}
+.cellc4 { grid-area:c4;}
+.celld4 { grid-area:d4;}
+.celle4 { grid-area:e4;}
+.cellf4 { grid-area:f4;}
+.cellg4 { grid-area:g4;}
+.cellh4 { grid-area:h4;}
+
+/*ROW 4*/
+.cella5 { grid-area:a5;}
+.cellb5 { grid-area:b5;}
+.cellc5 { grid-area:c5;}
+.celld5 { grid-area:d5;}
+.celle5 { grid-area:e5;}
+.cellf5 { grid-area:f5;}
+.cellg5 { grid-area:g5;}
+.cellh5 { grid-area:h5;}
+
+/*ROW 3*/
+.cella6 { grid-area:a6;}
+.cellb6 { grid-area:b6;}
+.cellc6 { grid-area:c6;}
+.celld6 { grid-area:d6;}
+.celle6 { grid-area:e6;}
+.cellf6 { grid-area:f6;}
+.cellg6 { grid-area:g6;}
+.cellh6 { grid-area:h6;}
+
+/*ROW 2*/
+.cella7 { grid-area:a7;}
+.cellb7 { grid-area:b7;}
+.cellc7 { grid-area:c7;}
+.celld7 { grid-area:d7;}
+.celle7 { grid-area:e7;}
+.cellf7 { grid-area:f7;}
+.cellg7 { grid-area:g7;}
+.cellh7 { grid-area:h7;}
+
+/*ROW 1*/
+.cella8 { grid-area:a8;}
+.cellb8 { grid-area:b8;}
+.cellc8 { grid-area:c8;}
+.celld8 { grid-area:d8;}
+.celle8 { grid-area:e8;}
+.cellf8 { grid-area:f8;}
+.cellg8 { grid-area:g8;}
+.cellh8 { grid-area:h8;}
